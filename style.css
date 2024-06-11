@@ -17,7 +17,6 @@ img {
 }
 
 .content {
-    width: 40%;
     padding: 28px 22.5px 44.5px 21px;
 }
 
@@ -40,4 +39,14 @@ img {
 
 .no-underline {
     text-decoration: none;
+}
+
+.custom-width {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .custom-width {
+        width: 40%;
+    }
 }
