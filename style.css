@@ -37,3 +37,7 @@ img {
     color: var(--Teal-Teal-300, #4FD1C5);
     font-size: 10px;
 }
+
+.no-underline {
+    text-decoration: none;
+}
